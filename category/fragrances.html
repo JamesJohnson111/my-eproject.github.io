@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GIFTSHOP - Fragrances</title>
+        <link rel="icon" type="image/png" sizes="50x50" href="images/gift.png">
+        <!--links start-->
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+        <script type="text/javascript" src="../js/jquery.2.2.3.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!--Links end-->
+        <link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+        <script src="../js/swiper.min.js"></script>
+    </head>
+    <style>
+        html,
+        body {
+          position: relative;
+        }
+    
+        body {
+          background: rgb(164, 12, 255, 0.1);
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .swiper-container {
+          width: 100%;
+          height: 600px;
+          margin: 50px 0;
+          padding: 50px 0;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          box-shadow: 0 0 50px #fff;
+    
+          /* Center slide text vertically 
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;*/
+        }
+        .headings-rel {
+            position: relative;
+            height: 300px;
+            width: 35%;
+            left: 33.5%;
+        }
+        .headings-txt {
+            position: absolute;
+            top: 33%;
+            left: 0;
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+            box-shadow: 0 0 30px rgb(128, 128, 128, 0.30);
+            transition: 1s;
+            color: #A40CFF;
+            background-color: #fff;
+            font-family: fantasy;
+        }
+        .headings-txt:hover {
+            letter-spacing: 5px;
+        }
+        .headings-line1 {
+            position: absolute;
+            top: 0;
+            left: -1.5px;
+            height: 200px;
+            width: 2px;
+            background-color: #ea00ff;
+            }
+        .headings-line2 {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            height: 200px;
+            width: 2px;
+            background-color: #ea00ff;
+        }
+        .fa-heart {
+            color: #ea00ff;
+        }
+        .contact-btn {
+            border: #fff 1px solid;
+            padding: 15px 30px;
+            background-color: #A40CFF;
+            color: #fff;
+            transition: 0.5s;
+            border-radius: 0;
+            font-family: 'Mulish', sans-serif;
+        }
+        .contact-btn:hover {
+            background-color: #fff;
+            color: #A40CFF;
+        }
+        .icons-col {
+            padding: 10px 0 10px 0;
+        }
+        .icons-col i {
+            color: #ea00ff;
+            font-size: 25px;
+        }
+      </style>
+    <body>
+        <div class="container-fluid p-5" style="background-color: #A40CFF; color: #fff;">
+            <h1 class="display-4 text-center" style="font-family: 'Lemonada', cursive;">Fragrances</h1>
+        </div>
+        <div class="headings-rel">
+            <div class="headings-line1"></div>
+            <div class="headings-txt">
+                <h1 class="display-4" id="sale">On Sale</h1>
+            </div>
+            <div class="headings-line2"></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap1.jpg" width="100%" height="400">
+                    <h5>Product No.1</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR540</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume9.jpg" width="100%" height="400">
+                    <h5>Product No.2</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR900</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap10.jpg" width="100%" height="400">
+                    <h5>Product No.3</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR670</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume8.jpg" width="100%" height="400">
+                    <h5>Product No.4</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR1000</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap11.jpg" width="100%" height="400">
+                    <h5>Product No.5</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR240</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume7.jpg" width="100%" height="400">
+                    <h5>Product No.6</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR500</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap12.jpg" width="100%" height="400">
+                    <h5>Product No.7</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR690</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume6.jpg" width="100%" height="400">
+                    <h5>Product No.8</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR360</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap13.jpg" width="100%" height="400">
+                    <h5>Product No.9</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR500</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume5.jpg" width="100%" height="400">
+                    <h5>Product No.10</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR240</span></p>
+                    </p>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="headings-rel">
+            <div class="headings-line1"></div>
+            <div class="headings-txt">
+                <h1 class="display-4" id="like">Latest At Store</h1>
+            </div>
+            <div class="headings-line2"></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap15.jpg" width="100%" height="400">
+                    <h5>Product No.1</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR540</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume4.jpg" width="100%" height="400">
+                    <h5>Product No.2</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR900</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap14.jpg" width="100%" height="400">
+                    <h5>Product No.3</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR670</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume3.jpg" width="100%" height="400">
+                    <h5>Product No.4</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR1000</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap16.jpg" width="100%" height="400">
+                    <h5>Product No.5</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR240</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap17.jpg" width="100%" height="400">
+                    <h5>Product No.6</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR500</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume21.jpg" width="100%" height="400">
+                    <h5>Product No.7</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR690</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume3.jpg" width="100%" height="400">
+                    <h5>Product No.8</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR360</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume20.jpg" width="100%" height="400">
+                    <h5>Product No.9</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR500</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume2.jpg" width="100%" height="400">
+                    <h5>Product No.10</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR240</span></p>
+                    </p>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="headings-rel">
+            <div class="headings-line1"></div>
+            <div class="headings-txt">
+                <h1 class="display-4" id="latest">People Also Like</h1>
+            </div>
+            <div class="headings-line2"></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume19.jpg" width="100%" height="400">
+                    <h5>Product No.1</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR540</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap2.jpg" width="100%" height="400">
+                    <h5>Product No.2</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR900</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume18.jpg" width="100%" height="400">
+                    <h5>Product No.3</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR670</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap24.jpg" width="100%" height="400">
+                    <h5>Product No.4</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR1000</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap23.jpg" width="100%" height="400">
+                    <h5>Product No.5</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR240</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume22.jpg" width="100%" height="400">
+                    <h5>Product No.6</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR500</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume15.jpg" width="100%" height="400">
+                    <h5>Product No.7</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR690</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume15.jpg" width="100%" height="400">
+                    <h5>Product No.8</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR360</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/perfume11.jpg" width="100%" height="400">
+                    <h5>Product No.9</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR500</span></p>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../perfumes/images/gap10.jpg" width="100%" height="400">
+                    <h5>Product No.10</h5>
+                    <p>
+                        <p class="lead text-left d-inline" style="font-family: fantasy;"><i class="fas fa-heart"> </i><i class="fas fa-heart"> </i> <i class="fas fa-heart"></i> <i class="fas fa-heart"> </i><span class="ml-4">Price : PKR240</span></p>
+                    </p>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              slidesPerView: 3,
+              spaceBetween: 50,
+              freeMode: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+            });
+        </script>
+        <div class="container-fluid text-center p-5" style="background-color: #A40CFF; color: #fff;">
+            <h1 class="display-4" style="font-family: 'Lemonada', cursive;">SO WHAT YOU THINK ?</h1>
+            <h1 style="font-family: fantasy;">Which Present Do You Like ?</h1>
+            <br>
+            <a href="../contactus.html">
+                <button type="button" class="btn contact-btn">Contact Us</button>
+            </a>
+        </div>
+        <div class="container-fluid" style="border-top: #A40CFF 1px solid;">
+            <div class="row">
+                <div class="col-sm-9 pt-2">
+                    <p class="lead copy-p">Copyright: 2020 . Design and Developed by: Muhammad Usman Badar</p>
+                </div>
+                <div class="col-sm-3 icons-col">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f mx-2"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter mx-2"></i></a>
+                    <a href="https://www.linkdin.com"><i class="fab fa-linkedin mx-2"></i></a>
+                    <a href="https://www.google.com"><i class="fab fa-google-plus-g mx-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

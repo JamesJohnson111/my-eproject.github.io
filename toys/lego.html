@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GIFTSHOP - Lego</title>
+        <!--links start-->
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!--Links end-->
+        <link rel="stylesheet" type="text/css" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script type="text/javascript" src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        .card:hover {
+            cursor: pointer;
+        }
+        .download {
+            background-color: #fff;
+            color: #A40CFF;
+            border-radius: 0;
+            padding: 15px 25px;
+            transition: 0.5s;
+        }
+        .download:hover {
+            background-color: #A40CFF;
+            border: #fff 1px solid;
+            color: #fff;
+        }
+        .download:focus {
+            box-shadow: 0 0 20px #fff;
+        }
+        .icons-col {
+            padding: 10px 0 10px 0;
+        }
+        .icons-col i {
+            color: #ea00ff;
+            font-size: 25px;
+        }
+        .form-control {
+            height: 50px;
+            border-radius: 0;
+            color: #A40CFF;
+        }
+        .form-control::placeholder {
+            font-size: 12px;
+        }
+        .form-control:focus {
+            box-shadow: 0 0 10px rgb(164, 12, 255, 0.30);
+            border: 1px solid #fff;
+        }
+        .btns {
+            background-color: #A40CFF;
+            color: #fff;
+            border-radius: 0;
+            padding: 5px 10px;
+            transition: 0.5s;
+        }
+        .btns:hover {
+            background-color: rgb(164, 12, 255, 0.9);
+            color: #fff;
+        }
+        form small {
+            color: #A40CFF;
+            font-size: 10px;
+        }
+    </style>
+    <body>
+        <div class="container-fluid p-5" style="background-color: #A40CFF; color: #fff;">
+            <h1 class="display-4 text-center" style="font-family: 'Lemonada', cursive;">Lego</h1>
+        </div>
+        <div class="container-fluid py-5" style="background-color: #F7F7F7;">
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego1.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.1</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego2.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.2</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego3.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.3</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego4.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.4</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego5.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.5</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego6.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.6</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego7.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.7</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego8.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.8</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego9.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.9</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego10.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.10</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego11.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.11</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-toggle="modal" data-target="#mod">
+                        <img class="card-img" src="images/lego12.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">Product No.12</h5>
+                            <p class="card-text">
+                                <p class="lead text-left d-inline" style="font-family: fantasy;">Brand : Lego <span class="ml-4">Price : PKR240</span></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-5 my-5 text-center" style="background-color: #A40CFF; color: #fff;">
+            <h1 class="display-4" style="font-family: 'Lemonada', cursive;">What Do You Think ?</h1>
+            <h1 style="font-family: fantasy;">Get More Information</h1>
+            <br>
+            <a href="../individual documentation/Toys/Lego.docx">
+                <button type="button" class="btn download">Get Started</button>
+            </a>
+        </div>
+        <div class="container-fluid" style="border-top: #A40CFF 1px solid;">
+            <div class="row">
+                <div class="col-sm-9 pt-2">
+                    <p class="lead copy-p">Copyright: 2020 . Design and Developed by: Muhammad Usman Badar</p>
+                </div>
+                <div class="col-sm-3 icons-col">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f mx-2"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter mx-2"></i></a>
+                    <a href="https://www.linkdin.com"><i class="fab fa-linkedin mx-2"></i></a>
+                    <a href="https://www.google.com"><i class="fab fa-google-plus-g mx-2"></i></a>    
+                </div>
+            </div>
+        </div>
+        <div class="modal fade animate" id="mod">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form onsubmit="return submition()">
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row my-2">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Your Name" id="username">
+                                        <small id="error1"></small>
+                                    </div>
+                                    <div class="col">
+                                        <input type="tel" class="form-control" placeholder="Your Cell" id="usercell">
+                                        <small id="error2"></small>
+                                    </div>
+                                </div>
+                                <div class="row px-3 my-2">
+                                    <input type="email" class="form-control" placeholder="Your Email" id="useremail">
+                                    <small id="error3"></small>
+                                </div>
+                                <div class="row px-3 my-2">
+                                    <input type="text" class="form-control" placeholder="Your address" id="useraddress">
+                                    <small id="error4"></small>
+                                </div>
+                                <div class="row my-2">
+                                    <div class="col">
+                                        <select id="product" class="form-control" required>
+                                            <option selected style="font-size: 12px;">Your Product</option>
+                                            <option><i>Product No.1</i></option>
+                                            <option><i>Product No.2</i></option>
+                                            <option><i>Product No.3</i></option>
+                                            <option><i>Product No.4</i></option>
+                                            <option><i>Product No.5</i></option>
+                                            <option><i>Product No.6</i></option>
+                                            <option><i>Product No.7</i></option>
+                                            <option><i>Product No.8</i></option>
+                                            <option><i>Product No.9</i></option>
+                                            <option><i>Product No.10</i></option>
+                                            <option><i>Product No.11</i></option>
+                                            <option><i>Product No.12</i></option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" class="form-control" placeholder="Quantity" id="quantity">
+                                        <small id="error5"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btns" data-dismiss="modal">Close</button>
+                            <input type="submit" class="btn btns" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/form-validations.js"></script>
+    </body>
+</html>
